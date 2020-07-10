@@ -1,0 +1,257 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "open sans";
+    scroll-behavior: smooth;
+  
+}
+.menu{
+    background: black;
+} 
+.navbar{
+    margin-bottom: 0;
+    
+}
+.navbar-default{
+    background: none;
+    border: none;
+}
+.navbar-default .navbar-brand{
+    color: darkgray;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-brand:focus ,.navbar-default .navbar-brand:hover ,.navbar-default .navbar-nav>li>a:hover{
+    color: darkgray;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background-color: darkgray;
+}
+.navbar-default .navbar-nav>li>a.active:after ,
+.navbar-default .navbar-nav>li>a:after{
+    content: "";
+    display: block;
+    margin-top: 2px;
+    width: 100%;
+    height: 3px;
+    background-color: #6195ff;
+    transition: width 0.7s;   
+}
+.navbar-default .navbar-nav>li>a.active:after{
+    width: 100%;
+}
+.navbar-default .navbar-nav>li>a:after{
+    width: 0;
+}
+.navbar-default .navbar-nav>li>a:hover:after{
+    width: 100%;
+}
+.container{
+    
+    width: 100%;
+    min-height: 620px;
+    height: auto;
+   position: relative;
+}
+.home{
+    position: relative;
+    padding-top: 49px;
+}
+.overlay{
+    background: #0000008a;
+    width: 100%;
+    height: 100%;
+    position: absolute;;
+}
+.img-a{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,4%);
+    position: relative;
+    border: 0;
+}
+
+.home .raf{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+    font-weight: bold;
+    font-size: 15px;
+    margin: auto;
+}
+h1,h2,h3{
+    text-align: center;
+    font-family: consolas;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+.btn-danger{  display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    justify-content: center;
+    margin-top: 10px;
+
+    
+  
+
+}
+.btn-danger a{
+    text-decoration: none;
+    color: white;
+}
+.header_footer{
+    width: 30px;
+    height: 50px;
+    
+    transform: translateY(20%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    border: 2px solid #fff;
+    border-radius: 18px;
+}
+ .header_footer .scroll{
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    margin: auto;
+    position: relative;
+    top: 4px;
+    animation: scrolling 1.5s ease-in-out infinite;
+    border-radius: 0 0 10px 10px;
+   
+}
+@keyframes scrolling {
+    0%{
+        top: 5%;
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+        top: 10px;
+    }
+    100%{
+        opacity: 0;
+        top: 25px;
+    }
+}
+
+ .prog{
+    font-size: 17px;
+    text-align: center;
+    padding-top: 10px;
+}
+.saw{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+    transform: translate(100%, 16px);
+    width: 33.33%;
+    
+    
+}
+#skills{
+    padding-top: 30px;
+}
+.progress{
+    height: 40px;
+    margin-top: 37px;
+    border-radius: 35px;
+}
+.sec:after{
+    content: "";
+    display: block;
+    margin-top: 2px;
+    width: 100%;
+    height: 3px;
+    background-color: #6195ff;
+    transition: width 0.9s;   
+}
+.sec:after{
+    width: 100%;
+}
+.sec:after{
+    width: 0;
+}
+.sec:hover:after{
+    width: 100%;
+}
+.comp{
+    background: #151538;
+    width: 100%;
+    margin: auto;
+    min-height: 700px;
+    
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+  
+   
+    
+   
+}
+.card-ra{
+    width: 80%;
+    height: 300px;
+    background: #BDBDC0;
+    border: 4px solid #000;
+    margin: auto;
+    border-radius:20%;
+    margin-bottom: 10px;
+  
+}
+.ra{
+    
+    width: fit-content;
+    margin: auto;
+    
+    padding-bottom: 30px;
+}
+.new1{
+    border:2px solid #000;
+    
+}
+.grad{
+    font-size: 26px;
+    
+    color: #151538;
+}
+.card2{
+    width: 80%;
+    height: 300px;
+    background: #BDBDC0;
+    border: 4px solid #000;
+    margin: auto;
+    border-radius:20%;
+    margin-bottom: 10px;
+    
+}
+footer{
+    background: black;
+    width: 100%;
+    height: 110px;
+    text-align: center;
+
+}
+.foot{
+    font-size: 30px;
+    color: darkgray;
+}
